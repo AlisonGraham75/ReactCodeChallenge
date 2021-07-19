@@ -33,7 +33,8 @@ If the dev-server script did not already open a browser for you, navigate to htt
 ### Bugs to fix
 
 ```
-“Remove all”  and  “remove” links do not work – please fix
+•	“Remove all”  and  “remove” links do not work – please fix
+•	The "What should I do?" button is supposed to display the OptionModal component when clicked - please fix.
 ```
 
 ### Enhancements to make
@@ -42,7 +43,11 @@ If the dev-server script did not already open a browser for you, navigate to htt
 •	Disable the “What should I do?” button if there are no options in the list.
 •	If nothing is entered in the input field when the “Add Option” button is clicked, display error : 'Enter valid value to add item'
 •	If they try to enter a duplicate item , display error: 'This option already exists'
-•	Use the third party component react-modal (must get from npm) to display a popup when user clicks “What should I Do?”
-•	Use the available styles in ./modal.scss to style the new component. 
+```
 
+### Upgrades needed     
+
+```
+•	Please update IndecisionApp.js to be a functional component instead of a class component. 
+•	Please update the state of IndecisionApp.js to use Hooks.
 ```
