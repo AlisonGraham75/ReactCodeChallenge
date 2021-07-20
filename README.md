@@ -30,6 +30,11 @@ yarn dev-server
 
 If the dev-server script did not already open a browser for you, navigate to http://localhost:8080/ in Google Chrome. As you make changes to the application, the dev-server script should redeploy automatically when you save your work. 
 
+The app you see should look similar to the screen shot below. The user should be able to add options, and have the computer randomly pick something for them to do.  But there are bugs to fix. 
+
+![image](https://user-images.githubusercontent.com/42179683/126228921-b96c8766-983e-4344-9a5a-046699ed042a.png)
+
+
 ### Bugs to fix
 
 ```
